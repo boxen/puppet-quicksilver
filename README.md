@@ -1,18 +1,7 @@
 # Quicksilver Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-quicksilver.png)](https://travis-ci.org/boxen/puppet-quicksilver)
 
-Install [Quicksilver](http://qsapp.com/index.php), a launcher utility app for Mac OS X which gives you the ability to perform common, every-day tasks rapidly and without thought.
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-include quicksilver
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
